@@ -9,10 +9,10 @@ screen = Label(window,
                text=value,
                bg="#2ecc71",
                fg="#ecf0f1",
-               width=23,
+               width=22,
                height=2,
                anchor=E,
-               font=("Verdana", 22),
+               font=("Verdana", 22), borderwidth=6, relief="raised"
                )
 
 myFont = font.Font(size=12, weight='bold')
@@ -36,10 +36,12 @@ def clear_btn():
     new_value = " "
     screen.configure(text=new_value)
 
+
 def backspace_btn():
     global new_value
     new_value = new_value[0:-1]
     screen.configure(text=new_value)
+
 
 
 new_value = " "
@@ -51,6 +53,7 @@ num7 = Button(window,
               width=8,
               command=lambda: btn_clicked(7))
 num7['font'] = myFont
+
 
 num8 = Button(window,
               text=8,
@@ -166,7 +169,7 @@ clear_btn = Button(window,
                    width=3,
                    command=clear_btn)
 clear_btn['font'] = myFont
-photo = PhotoImage(file=r"..\sample project\backspace.png")
+photo = PhotoImage(file="./images/backspace.png")
 backspace_btn = Button(window,
                        image=photo,
                        height=27,
@@ -177,6 +180,8 @@ backspace_btn = Button(window,
 window.geometry("440x530+420+110")
 window.resizable(False, False)
 window.title("Calculator -by Jobin")
+window.iconbitmap(default='./images/calculator-icon.ico')
+window.configure(bg='#95a5a6')
 
 # positions
 screen.grid(row=0, column=0, columnspan=7, padx=10, pady=10)
