@@ -10,9 +10,9 @@ from tkinter import font     # |
 
 window = Tk()
 value = StringVar
-value = ""
+intro = "SIMPLE CALCULATOR    "
 screen = Label(window,
-               text=value,
+               text=intro,
                bg="#2ecc71",
                fg="#ecf0f1",
                width=22,
@@ -22,33 +22,33 @@ screen = Label(window,
                )
 myFont = font.Font(size=12, weight='bold')
 
-new_value = " "
+value = " "
 
 # --------Functions for every operations and add values to the display(label)
 
 def btn_clicked(number):
-    global new_value
-    new_value = new_value + str(number)
-    screen.configure(text=new_value)
+    global value
+    value = value + str(number)
+    screen.configure(text=value)
 
 
 def equal_btn():
-    global new_value
-    answer = str(eval(new_value))
+    global value
+    answer = str(eval(value))
     screen.configure(text=answer)
-    new_value = " "
+    value = " "
 
 
 def clear_btn():
-    global new_value
-    new_value = " "
-    screen.configure(text=new_value)
+    global value
+    value = " "
+    screen.configure(text=value)
 
 
 def backspace_btn():
-    global new_value
-    new_value = new_value[0:-1]
-    screen.configure(text=new_value)
+    global value
+    value = value[0:-1]
+    screen.configure(text=value)
 
 
 # -------------------------------------functions ends-------------------
