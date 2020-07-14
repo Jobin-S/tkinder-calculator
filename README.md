@@ -29,12 +29,12 @@ concatenate the argument number with it. And set the value variable to the label
 The mathematical operator showing on the screen while clicking it's button also uses this function
 But, instead of passing argument as numbers pass string (*,/,+ and -) for the apt operators use.
 
-##How calculations  are doing ?
+## How calculations  are doing ?
 
 When we Entering calculations the Mathematical Calculation are stored in the value variable and 
 shows on the label.When the user puts the calculations and enter equal button it calls the equal_btn function. 
 
-###equal_btn()
+### equal_btn()
 
 This function does'nt have any argument. When calling this function the mathematical problem containing
 variable passes to the build in [eval function](https://www.programiz.com/python-programming/methods/built-in/eval)
