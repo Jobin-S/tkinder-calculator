@@ -41,14 +41,14 @@ variable passes to the build in [eval function](https://www.programiz.com/python
 and it return the answer of the Mathematical Problem then the answer is assigned to the answer variable then it is 
 setting to the label (Display). After these the value is set to none for avoiding concatenate with new mathematical problem.
 
-###clear_btn()
+### clear_btn()
 
 This function clear all operations on label. The function assign value to none and set it to the label.
 
-###backspace_btn() 
+### backspace_btn() 
 
 This function backspace the operations that shows in the label
 
-###Hover Effect
+### Hover Effect
 
 Hover effect in the button is done by the enter and leave event. Here is the [Reference](https://stackoverflow.com/questions/49888623/tkinter-hovering-over-button-color-change)
