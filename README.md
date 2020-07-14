@@ -14,7 +14,7 @@ with hope, After start doing things gone worst but at last I completed.<br><br>
 This is an calculator fully coded by me with  Python.
 Here I am using Tkinter GUI (Graphical User Interface)
 
-#How is it working ?
+# How is it working ?
 
 <b>note:</b> There are many methods to do this work But here I am using my own logic and more 
 ideas that I got from researches.
@@ -22,7 +22,7 @@ ideas that I got from researches.
 In the interface I created Buttons and Label (for display) for user to interact
 for the calculations. We pass argument to the btn_clicked function.
 
-###btn_clicked()
+### btn_clicked()
 
 When an argument passes to this function it takes the latest string on the value variable and 
 concatenate the argument number with it. And set the value variable to the label (Display).
