@@ -1,4 +1,4 @@
-#Simple Calculator
+# Simple Calculator
 I got an task from the [CrossRoads Team](https://www.youtube.com/c/Crossroadstalk) to build an calculator,
 while the python Programing Challenge. From an Programmers mind I accepted the challenge
 with hope, After start doing things gone worst but at last I completed.<br><br>
