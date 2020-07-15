@@ -16,7 +16,7 @@ character.
 
 # Tkinter Calculator
 <p align = "center">
-<img src="images/calculator.png">
+<img src="images/calculator.png" width="300px">
 </p>
 This is an calculator fully coded by me with  Python.
 Here I am using Tkinter GUI (Graphical User Interface)
