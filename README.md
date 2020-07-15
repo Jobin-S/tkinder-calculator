@@ -1,4 +1,4 @@
-#Simple Calculator
+# Simple Calculator
 I got an task from the [CrossRoads Team](https://www.youtube.com/c/Crossroadstalk) to build an calculator,
 while the python Programing Challenge. From an Programmers mind I accepted the challenge
 with hope, After start doing things gone worst but at last I completed.<br><br>
@@ -14,7 +14,7 @@ with hope, After start doing things gone worst but at last I completed.<br><br>
 This is an calculator fully coded by me with  Python.
 Here I am using Tkinter GUI (Graphical User Interface)
 
-#How is it working ?
+# How is it working ?
 
 <b>note:</b> There are many methods to do this work But here I am using my own logic and more 
 ideas that I got from researches.
@@ -22,7 +22,7 @@ ideas that I got from researches.
 In the interface I created Buttons and Label (for display) for user to interact
 for the calculations. We pass argument to the btn_clicked function.
 
-###btn_clicked()
+### btn_clicked()
 
 When an argument passes to this function it takes the latest string on the value variable and 
 concatenate the argument number with it. And set the value variable to the label (Display).
@@ -41,14 +41,14 @@ variable passes to the build in [eval function](https://www.programiz.com/python
 and it return the answer of the Mathematical Problem then the answer is assigned to the answer variable then it is 
 setting to the label (Display). After these the value is set to none for avoiding concatenate with new mathematical problem.
 
-###clear_btn()
+### clear_btn()
 
 This function clear all operations on label. The function assign value to none and set it to the label.
 
-###backspace_btn() 
+### backspace_btn() 
 
 This function backspace the operations that shows in the label
 
-###Hover Effect
+### Hover Effect
 
 Hover effect in the button is done by the enter and leave event. Here is the [Reference](https://stackoverflow.com/questions/49888623/tkinter-hovering-over-button-color-change)
