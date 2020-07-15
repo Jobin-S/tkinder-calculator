@@ -5,11 +5,12 @@
 # -----------------------------|
 from tkinter import *        # |
 from tkinter import font     # |
+                             # |
 # imported required modules  # |
 # -----------------------------|
 
 window = Tk()
-value = StringVar
+value = " "
 intro = "SIMPLE CALCULATOR    "
 screen = Label(window,
                text=intro,
@@ -18,11 +19,14 @@ screen = Label(window,
                width=22,
                height=2,
                anchor=E,
-               font=("Verdana", 22), borderwidth=6, relief="raised"
+               font=("Verdana", 22),
+               borderwidth=6,
+               relief="raised",
+               wraplength=410,
+               justify="right"
                )
 myFont = font.Font(size=12, weight='bold')
 
-value = " "
 
 # --------Functions for every operations and add values to the display(label)
 
@@ -30,6 +34,22 @@ def btn_clicked(number):
     global value
     value = value + str(number)
     screen.configure(text=value)
+    if len(value) > 44:
+        screen.configure(font=("Verdana", 15),
+                         width=30,
+                         height=3);
+
+        if len(value) > 90:
+            screen.configure(font=("Verdana", 22),
+                             width=22,
+                             height=2,
+                             text="Error")
+            value = " "
+
+    else:
+        screen.configure(font=("Verdana", 22),
+                         width=22,
+                         height=2)
 
 
 def equal_btn():
@@ -132,6 +152,7 @@ def num3leave(event):
 
 def num0leave(event):
     num0['background'] = '#f9ca24'
+
 
 # --------------------------Hover Effects ends---------------------------
 
