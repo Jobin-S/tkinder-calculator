@@ -3,7 +3,12 @@ I got an task from the [CrossRoads Team](https://www.youtube.com/c/Crossroadstal
 while the python Programing Challenge. From an Programmers mind I accepted the challenge
 with hope, After start doing things gone worst but at last I completed.<br><br>
 <b>Status:</b> Developing for more features.<br>
-<b>Stable Version:</b> Version available in this  repository is stable.<br>
+<b>Stable Version:</b> Version available in this  repository is stable.<br><br>
+
+<b>Latest update feature: </b>In the old version their was a problem that When User inputs more character it will get out of the screen.<br>
+In this update I added an if statement under the [btn_clicked](#btn_clicked) funtion to excecute and check the length everytime user inputs. When the 
+display gets 11 character the charcter shows by two lines. When it gets 22 display gets full of character and decrease the character length and get upto 90 
+character. 
 
 <b>Special Credits: </b>[CrossRoads Team](https://www.youtube.com/c/Crossroadstalk) and [@AswinAsok](https://github.com/AswinAsok) (Hillarious Coder)<br>
 <b>Author:</b> Jobin S<br>
