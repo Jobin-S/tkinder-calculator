@@ -6,7 +6,7 @@ with hope, After start doing things gone worst but at last I completed.<br><br>
 <b>Stable Version:</b> Version available in this  repository is stable.<br><br>
 
 <b>Latest update feature: </b>In the latest version their was a problem that When User inputs more character it will get out of the screen.<br>
-In this update I added an if statement under the [btn_cliked](### btn_clicked) funtion to excecute and check the length everytime user inputs. When the 
+In this update I added an if statement under the [btn_cliked](#btn_clicked) funtion to excecute and check the length everytime user inputs. When the 
 display gets 11 character the charcter shows by two lines. When it gets 22 display gets full of character and decrease the character length and get upto 90 
 character. 
 
